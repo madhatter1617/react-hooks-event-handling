@@ -7,5 +7,9 @@ function Tickler() {
 
   return <button onClick={tickle}>Tickle me!</button>;
 }
+// orrrrrrr
+// function Tickler() {
+//   return <button onClick={() => console.log("Teehee!")}>Tickle me!</button>;
+// } 
 
 export default Tickler;
